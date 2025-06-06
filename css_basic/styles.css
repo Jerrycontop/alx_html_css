@@ -37,3 +37,58 @@ header, footer {
   text-align: center;
   padding: 15px;
 }
+
+
+
+
+/* Body customization */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+}
+
+/* Header nav bar styling */
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header li {
+  padding: 0.5rem;
+}
+
+/* This class is already defined in base.css, just use it */
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Article styling */
+article {
+  background-color: white;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  line-height: 1.6;
+}
+
+/* Optional - footer styling */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+
