@@ -1,0 +1,214 @@
+ /* General Body Styling */
+    body {
+        margin: 0;
+        font-family: source san pro, sans-serif; /* A common sans-serif font */
+        background-color: #212121;
+        color: white;
+    }
+
+    /* Header Styling */
+    header {
+        position: absolute; /* To allow the background image to show through */
+        width: 100%;
+        z-index: 100; /* Ensure it's above other content */
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 100px; /* Adjust padding as needed */
+        max-width: 1200px; /* Max width to center content */
+        margin: 0 auto; /* Center the nav */
+    }
+
+    nav img {
+        height: 40px; /* Adjust logo size */
+        width: auto;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 30px; /* Space between list items */
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+        transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+        color: #c82c76; /* Lighter color on hover */
+    }
+
+    /* First Section (Hero Section) Styling - Adjusted */
+        main section:first-of-type {
+            background-image: url('Object.png'); /* Placeholder */
+            background-size: 100vw auto;
+            background-position: column;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding-top: 100px; /* Reduced top padding */
+            padding-bottom: 80px; /* Slightly reduced bottom padding to balance */
+            min-height: auto; /* Adjust height based on content */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Align items to the top */
+            align-items: center;
+            position: relative;
+            height: 100%;
+            top: 5px;
+            color: #fff;
+    }
+
+    main section:first-of-type::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+            z-index: 1;
+    }
+
+     main section:first-of-type > div:first-of-type {
+            position: relative;
+            z-index: 2;
+            margin-top: 0; /* Removed top margin */
+            max-width: 800px;
+            width: 100%;
+            margin-bottom: 60px; /* Added some space below the main text block */
+    }
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fefefe;
+  text-align: center;
+  gap: 30px; /* spacing between the sections */
+}
+
+/* Style <h1> */
+.hero-heading h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 120px;
+  margin-top: 100px; /* You can increase or decrease this value */
+  margin-bottom: 10px;
+  margin-right: 0px;
+  color: white;
+}
+
+/* Style <span> group */
+.hero-tags {
+  display: flex;
+  margin-top: -15px;
+  margin-left: 280px;
+  transform: translateX(10px);
+  gap: 50px;
+}
+
+.hero-tags span {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+/* Style the button */
+.hero-button button {
+  margin-top: 30px;
+  margin-left: 50px;
+  padding: 10px 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  border-radius: 22px;
+  
+  cursor: pointer;
+}
+
+.hero-button button:hover {
+  background-color: #c82c76;
+}
+
+.pros {
+ 
+  padding: 50px 20px;
+  
+}
+
+.pros h2 {
+  margin-top: 100px;
+  font-size: 36px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  margin-left: 100px; 
+}
+
+.pros .highlight {
+  color: #C271FF; 
+  font-weight: bold;
+}
+
+.pros-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative; /* allows positioning */
+  top:-50px ; /* use to move up/down */
+  right: 200px;
+  gap: 100px;
+  padding: 40px;
+  padding-top: 100px;
+
+  text-align: center;
+}
+
+.pro {
+ text-align: center;
+  min-width: 200px;
+  max-width: 250px;
+}
+.pro img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+.pro h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  margin: -2px 0 5px;
+  color: #fff;
+}
+.pro p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  margin: -2px 0 5px;
+  color: #fff;
+
+
+}
+
+
+
+
+
+
+
+
+
+    
