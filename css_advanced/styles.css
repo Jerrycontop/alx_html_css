@@ -1,4 +1,12 @@
- /* General Body Styling */
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+/* General Body Styling */
     body {
         margin: 0;
         font-family: source san pro, sans-serif; /* A common sans-serif font */
@@ -55,7 +63,7 @@
             background-repeat: no-repeat;
             text-align: center;
             padding-top: 100px; /* Reduced top padding */
-            padding-bottom: 80px; /* Slightly reduced bottom padding to balance */
+            /* padding-bottom: 80px; */ /* Slightly reduced bottom padding to balance */
             min-height: auto; /* Adjust height based on content */
             display: flex;
             flex-direction: column;
@@ -95,7 +103,7 @@
   justify-content: center;
   background: #fefefe;
   text-align: center;
-  gap: 30px; /* spacing between the sections */
+  gap: 0; /* spacing between the sections */
 }
 
 /* Style <h1> */
@@ -147,7 +155,10 @@
 .pros {
  
   padding: 50px 20px;
-  
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .pros h2 {
@@ -155,7 +166,9 @@
   font-size: 36px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: lighter;
-  margin-left: 100px; 
+  margin-left: 100px;
+  margin-bottom: 0;
+  padding-bottom: 0; 
 }
 
 .pros .highlight {
@@ -167,42 +180,96 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: relative; /* allows positioning */
-  top:-50px ; /* use to move up/down */
   right: 200px;
   gap: 100px;
   padding: 40px;
-  padding-top: 100px;
-
+  padding-top: 75px;
+  padding-bottom: 5px;
   text-align: center;
+
 }
 
 .pro {
  text-align: center;
   min-width: 200px;
   max-width: 250px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .pro img {
   width: 100px;
   height: 100px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 .pro h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   margin: -2px 0 5px;
   color: #fff;
+  
 }
 .pro p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   margin: -2px 0 5px;
   color: #fff;
-
-
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
+
+/*Testimonial part*/
+.testimonial{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #C271FF;
+  gap: 40px;
+  margin-top: 0;
+  padding-top: 5px;
+  padding: 100px 50px;
+}
+.testimonial-image{
+  width: 30%;
+  float: left;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  transform: translate(100px, 30px);
+  
+}
+
+.testimonial-text{
+  width: 70%;
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+ font-style: normal;
+  color: white;
+  margin-bottom: 20px;
+  transform: translate(-70px, 10px);
+}
+
+.testimonial-text-h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-style: normal;
+  transform: translate(37px, 10px);
+}
+.testimonial-text-p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  transform: translate(35px, -5px);
+}
 
 
 
