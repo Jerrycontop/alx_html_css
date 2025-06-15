@@ -459,7 +459,50 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.footer-content {
+  background-color: #071629;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
 
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+}
+
+.footer-logo {
+  height: 30px; /* Adjust logo size */
+  width: auto;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-icons img {
+   width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 8px;
+}
+
+.footer-icons i:hover {
+  color: #C271FF;
+}
+
+.footer-note {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  color: #ffffffcc;
+}
 
 
 
