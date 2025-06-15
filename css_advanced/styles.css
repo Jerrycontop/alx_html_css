@@ -271,7 +271,95 @@
   transform: translate(35px, -5px);
 }
 
+.tutorials {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+.tutorials h2{
+  font-size: 32px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+  color: #212121;
+}
+.highlight{
+  color: #C271FF;
+  font-weight: bold;
+}
 
+.tutorial-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 5px;
+  justify-items: center;
+}
+
+.tutorial-card{
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+}
+.thumbnail {
+  position: relative;
+}
+
+.thumbnail img {
+  width: 100%;
+  object-fit: cover;
+}
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tutorial-card-h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+	color: black;
+}
+
+.tutorial-card-p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+	color: #a5a8a8;
+  padding-bottom: 10px;
+}
+.author{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: semibold;
+  display: flex;
+  align-items: center;
+  color: #C271FF;
+  transform: translate(-1px, -20px);
+}
+.author img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+   margin-bottom: 5px;
+}
+
+.rating-duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  transform: translate(50px, -30px);
+}
+.duration {
+  color: #C271FF;
+  font-size: 14px;
+  transform: translate(10px, -35px);
+  padding-left: 180px;
+  padding-bottom: 50px;
+}
 
 
 
